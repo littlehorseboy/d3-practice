@@ -7,6 +7,8 @@ import { withInfo } from '@storybook/addon-info';
 import SVGPracticeLine from './SVGPracticeLine';
 import SVGPracticePolyline from './SVGPracticePolyline';
 import SVGPracticePolygon from './SVGPracticePolygon';
+import SVGPracticePath from './SVGPracticePath';
+import SVGPracticePathHV from './SVGPracticePathHV';
 
 storiesOf('SVGPractice', module)
   .add('SVGPracticeLine', withInfo()(() => (
@@ -17,4 +19,10 @@ storiesOf('SVGPractice', module)
   )))
   .add('SVGPracticePolygon', withInfo()(() => (
     <SVGPracticePolygon />
+  )))
+  .add('SVGPracticePath', withInfo()(() => (
+    <SVGPracticePath />
+  )))
+  .add('SVGPracticePathHV', withInfo()(() => (
+    <SVGPracticePathHV />
   )));
