@@ -12,6 +12,8 @@ import SVGPracticePathHV from './SVGPracticePathHV';
 import SVGPracticePathC from './SVGPracticePathC';
 import SVGPracticePathS from './SVGPracticePathS';
 import SVGPracticePathQT from './SVGPracticePathQT';
+import SVGPracticePathA from './SVGPracticePathA';
+import SVGPracticePathA2 from './SVGPracticePathA2';
 
 storiesOf('SVGPractice', module)
   .add('SVGPracticeLine', withInfo()(() => (
@@ -37,4 +39,10 @@ storiesOf('SVGPractice', module)
   )))
   .add('SVGPracticePathQT', withInfo()(() => (
     <SVGPracticePathQT />
+  )))
+  .add('SVGPracticePathA', withInfo()(() => (
+    <SVGPracticePathA />
+  )))
+  .add('SVGPracticePathA2', withInfo()(() => (
+    <SVGPracticePathA2 />
   )));
