@@ -9,6 +9,9 @@ import SVGPracticePolyline from './SVGPracticePolyline';
 import SVGPracticePolygon from './SVGPracticePolygon';
 import SVGPracticePath from './SVGPracticePath';
 import SVGPracticePathHV from './SVGPracticePathHV';
+import SVGPracticePathC from './SVGPracticePathC';
+import SVGPracticePathS from './SVGPracticePathS';
+import SVGPracticePathQT from './SVGPracticePathQT';
 
 storiesOf('SVGPractice', module)
   .add('SVGPracticeLine', withInfo()(() => (
@@ -25,4 +28,13 @@ storiesOf('SVGPractice', module)
   )))
   .add('SVGPracticePathHV', withInfo()(() => (
     <SVGPracticePathHV />
+  )))
+  .add('SVGPracticePathC', withInfo()(() => (
+    <SVGPracticePathC />
+  )))
+  .add('SVGPracticePathS', withInfo()(() => (
+    <SVGPracticePathS />
+  )))
+  .add('SVGPracticePathQT', withInfo()(() => (
+    <SVGPracticePathQT />
   )));
