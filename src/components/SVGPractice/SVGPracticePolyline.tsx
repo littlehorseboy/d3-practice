@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SVGPractice(): JSX.Element {
+export default function SVGPracticePolyline(): JSX.Element {
   return (
     <svg>
       <polyline points="40,0 60,60 0, 60" style={{ stroke: 'red', strokeWidth: 3 }} />

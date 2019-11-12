@@ -6,6 +6,7 @@ import { withInfo } from '@storybook/addon-info';
 /* eslint-enable */
 import SVGPracticeLine from './SVGPracticeLine';
 import SVGPracticePolyline from './SVGPracticePolyline';
+import SVGPracticePolygon from './SVGPracticePolygon';
 
 storiesOf('SVGPractice', module)
   .add('SVGPracticeLine', withInfo()(() => (
@@ -13,4 +14,7 @@ storiesOf('SVGPractice', module)
   )))
   .add('SVGPracticePolyline', withInfo()(() => (
     <SVGPracticePolyline />
+  )))
+  .add('SVGPracticePolygon', withInfo()(() => (
+    <SVGPracticePolygon />
   )));

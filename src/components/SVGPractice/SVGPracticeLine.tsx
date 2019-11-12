@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SVGPractice(): JSX.Element {
+export default function SVGPracticeLine(): JSX.Element {
   return (
     <svg width="350" height="200">
       <line x1="0" y1="0" x2="250" y2="0" style={{ stroke: 'Tomato', strokeWidth: 3 }} />
